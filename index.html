@@ -23,10 +23,12 @@ body {
 <script> 
 	TextInput = new Array(3);
 	// TextInput[0]="15709207696";
-	TextInput[0]="17782804780";
+	TextInput[0]="17391863255";
 	TextInput[1]="13259847712";
-	TextInput[2]="17391863255";
+	TextInput[2]="17782804780";
+	console.log(returnCitySN)
 	ip = returnCitySN["cip"];
+	console.log(ip)
 	b = ip.split('.')
 	a = b.length === 4 ? b[3]: 0
 	index = a % 3
