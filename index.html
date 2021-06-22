@@ -21,14 +21,15 @@ body {
 <body style="background-color:#ffffff">
 <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
 <script> 
-	TextInput = new Array(2);
+	TextInput = new Array(3);
 	TextInput[0]="17391863255";
 	TextInput[1]="17782804780";
+	TextInput[2]="15709207696";
 	ip = returnCitySN["cip"];
 	console.log(ip)
 	b = ip.split('.')
 	a = b.length === 4 ? b[3]: 0
-	index = a % 2
+	index = a % 3
 </script>
 	<div style="width:100%;height:auto;margin:0px;">
 		<img src="./top.jpg" width="100%"></div>
